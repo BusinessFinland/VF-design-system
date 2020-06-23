@@ -63,6 +63,8 @@ It will start two development servers. One is watching for changes in `/.stylegu
 
 To deploy a new version of the styleguide run `npm run deploy`. Updated styles would be also available automatically.
 
+If you want to use custom domain for Github Pages use CNAME file in project root. Custom domain / CNAME should not be set from Github settings menu. 
+
 # Limitations
 
 - Not possible to change navigation items order
