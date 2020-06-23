@@ -1,6 +1,7 @@
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, '.styleguide', 'index.js'),
@@ -43,13 +44,15 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebPackPlugin({
       template: path.resolve(__dirname, '.styleguide', 'public', 'index.html'),
       filename: path.resolve('dist/index.html')
     }),
     new CopyWebpackPlugin([
       { from: 'assets/css', to: 'assets/css' },
-      { from: 'package.template.json', to: 'package.json' }
+      { from: 'package.template.json', to: 'package.json' },
+      { from: 'CNAME', to: './CNAME', toType: 'file'}
     ])
   ]
 };
