@@ -10,9 +10,9 @@ You can use components styles as a project dependency via npm from the github re
 
 2. Go to the index file of your application and import `tokens.css` and `styles.css`.
 
-   `import 'bf-html-styleguide/assets/css/tokens.css';`
+   `import 'vf-html-styleguide/assets/css/tokens.css';`
 
-   `import 'bf-html-styleguide/assets/css/styles.css';`
+   `import 'vf-html-styleguide/assets/css/styles.css';`
 
 If you want to get more familiar with the tool itself, read the next chapter.
 
