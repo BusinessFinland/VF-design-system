@@ -41,6 +41,9 @@ that store visual design attributes. Technically, design tokens are expressed as
   --vf-font-family-brand: Avenir;
   --vf-font-family-fallback: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+  --vf-font-family-serif: Georgia;
+  --vf-font-family-serif-fallback: serif;
+
   --vf-line-height-base: 1.6;
   --vf-line-height-header: 1.15;
 

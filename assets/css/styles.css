@@ -247,6 +247,10 @@ h2.vf-paragraph-heading-center {
     text-align: center;
 }
 
+.vf-serif {
+  font-family: var(--vf-font-family-serif), var(--vf-font-family-serif-fallback);
+}
+
 /* dropdown menu */
 
 .vf-dropdown-menu {
