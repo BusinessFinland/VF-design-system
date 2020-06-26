@@ -94,7 +94,7 @@ h4.vf-heading {
 }
 
 /* search.md */
-.vf-search-input {
+.vf-text-input {
     padding: 5px 10px;
 /*    padding-left: 30px; */
     font-family: inherit;
@@ -107,7 +107,7 @@ h4.vf-heading {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.vf-search-input:focus {
+.vf-text-input:focus {
     border-color: #31ccfd;
     outline: 0;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(49,204,253,.6);
