@@ -303,15 +303,23 @@ h2.vf-paragraph-heading-center {
 
 /* logo */
 
+.vf-logo-container {
+    display: flex;
+}
+
 .vf-logo {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 
+.vf-logo-vertical {
+    flex-direction: column;
+}
+
 .vf-logo > img {
-    height: 50px;
-    width: auto;
+    height: 60px;
+    width: 60px;
 }
 
 .vf-logo-text {
@@ -319,7 +327,21 @@ h2.vf-paragraph-heading-center {
     color: #73C8FF;
     font-weight: 500;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.vf-logo-vertical > .vf-logo-text {
+    padding-left: 0;
+    padding-top: 4px;
+    font-size: 11px;
+}
+
+.vf-logo-text-black {
+    color: #000;
+}
+
+.vf-logo-text-white {
+    color: #fff;
 }
 
 /* hero */
