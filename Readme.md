@@ -6,7 +6,7 @@ You can use components styles as a project dependency via npm from the github re
 
 1. Enter the root of you project where you have your `package.json` and run
 
-   `npm install https://github.com/BusinessFinland/BF-design-system#gh-pages`
+   `npm install https://github.com/BusinessFinland/VF-design-system#gh-pages`
 
 2. Go to the index file of your application and import `tokens.css` and `styles.css`.
 
@@ -47,7 +47,7 @@ You can find all logic of generation HTML templates from `.md` files in `/.style
 
 1. Clone the repository
 
-   `git clone https://github.com/BusinessFinland/BF-design-system`
+   `git clone https://github.com/BusinessFinland/VF-design-system`
 
 2. Install dependencies
 
@@ -77,13 +77,13 @@ If you want to use custom domain for Github Pages use CNAME file in project root
 Build a docker image from the `Dockerfile` and the cloned context in the master branch:
 
 ```
-docker build . -t bf-design-system:dev
+docker build . -t vf-design-system:dev
 ```
 
 Create a container from the build image and start the container:
 
 ```
-docker run -p 8080:8080 -d --name bf-design-system bf-design-system:dev
+docker run -p 8080:8080 -d --name vf-design-system vf-design-system:dev
 ```
 
 It will start on http://localhost:8080
@@ -91,8 +91,8 @@ It will start on http://localhost:8080
 A running container can be stopped and started again, respectively:
 
 ```
-docker stop bf-design-system
-docker start bf-design-system
+docker stop vf-design-system
+docker start vf-design-system
 ```
 
 # Npm audit fix

@@ -9,9 +9,11 @@ const Header = ({ version = '', description = '' }) => {
       <div className='bf--header-meta'>
         <div className='bf--logo'>
           <NavLink to='/'>
-            <div className='bf-logo bf-logo_sm'>
-              <img src="assets/images/visitfinland.png" alt="logo"></img>
-              <div className='bf-logo-business'>Visit Finland</div>
+            <div className='vf-logo-container'>
+              <div className='vf-logo'>
+                <img src="assets/images/visitfinland.png" alt="logo"></img>
+                <div className='vf-logo-text'>Visit Finland</div>
+              </div>
             </div>
           </NavLink>
         </div>

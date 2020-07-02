@@ -4,18 +4,18 @@
 
 ### What is Design System
 
-**Design systems** is a systematic approach to creating and maintaining consistent user interfaces of Business Finland which coherently communicate our brand values and empower user experience. Design system is often refered as “component library” or “pattern library”
+**Design systems** is a systematic approach to creating and maintaining consistent user interfaces of Visit Finland which coherently communicate our brand values and empower user experience. Design system is often refered as “component library” or “pattern library”
 
 ### Why we use it
 
-By using Business Finland Design System we're trying to tackle following issues common in web development:
+By using Visit Finland Design System we're trying to tackle following issues common in web development:
 
 * Inconsistent user interfaces and user experience
 * Large costs of design
 * Low-level multidisciplinary collaboration
 * Non-efficient design-team work
 
-:finland: This Design System advocates also Finnish design - Business Finland is proudly designed in Finland :finland: 
+:finland: This Design System advocates also Finnish design - Visit Finland is proudly designed in Finland :finland: 
 
 ### Terminology
 
@@ -30,7 +30,7 @@ By using Business Finland Design System we're trying to tackle following issues 
 ### Process
 
 - First, have a quick look at the structure of this design system including component and UI element inventories and clone it to your local host as instructed in following chapter.
-- Second, familiarise yourself with the Business Finland Design System process described in following picture and decide whether you can re-use exiting components or if you need to create new.
+- Second, familiarise yourself with the Visit Finland Design System process described in following picture and decide whether you can re-use exiting components or if you need to create new.
 - Third, get access to Business Finland Design System Teams channel https://smarturl.it/BF-designSystem for getting support for your thoughts and join conversation of design related topics. If you don't have access to Teams channel, please do not hesitate to request for it by sending email to *maria.singh[at]businessfinland.fi*
 
 ![Image of Design System Process](assets/images/BFdesignsystemprocess2.png)
@@ -41,7 +41,7 @@ You can use components styles as a project dependency via npm from the github re
 
 1. Enter the root of you project where you have your `package.json` and run
 
-   `npm install https://github.com/BusinessFinland/BF-design-system#visitfinland-package`
+   `npm install https://github.com/BusinessFinland/VF-design-system#gh-pages`
 
 2. Go to the index file of your application and import `tokens.css` and `styles.css`.
 
@@ -84,17 +84,13 @@ You can find all logic of generation HTML templates from `.md` files in `/.style
 
 1. Clone the repository
 
-   `git clone https://github.com/BusinessFinland/BF-design-system`
+   `git clone https://github.com/BusinessFinland/VF-design-system`
 
-2. Checkout to Visit Finland branch
-
-   `git checkout visitfinland`
-
-3. Install dependencies
+2. Install dependencies
 
    `npm install`
 
-4. Run the styleguide
+3. Run the styleguide
 
    `npm start`
 
