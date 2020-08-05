@@ -2,7 +2,10 @@
 
 ```html
 <form action="#" role="search">
-    <input class="vf-text-input" placeholder="Search" type="text" aria-label="Search">
+    <div class="vf-text-input-group">
+        <span class="icon-search vf-text-input-search-icon"></span>
+        <input class="vf-text-input" placeholder="Search" type="text" aria-label="Search">
+    </div>
 </form>
 ```
 
