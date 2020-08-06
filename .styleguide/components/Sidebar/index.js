@@ -14,8 +14,8 @@ const Sidebar = ({ parentPages, children }) => {
         exact
         to={page.path}
         key={page.fileName}
-        className='bf--sidebar-link'
-        activeClassName='bf--sidebar-link_active'
+        className='styleguide--sidebar-link'
+        activeClassName='styleguide--sidebar-link_active'
       >
         {replaceDashWithSpace(pageName)}
       </NavLink>
@@ -23,20 +23,20 @@ const Sidebar = ({ parentPages, children }) => {
   };
 
   const parentLinks = (
-    <div className='bf--sidebar-category'>{parentPages.map(page => renderLink(page))}</div>
+    <div className='styleguide--sidebar-category'>{parentPages.map(page => renderLink(page))}</div>
   );
 
   const restLinks = Object.keys(children).map(category => {
     return (
-      <div key={category} className='bf--sidebar-category'>
-        <div className='bf--sidebar-title'>{capitalizeString(category)}</div>
+      <div key={category} className='styleguide--sidebar-category'>
+        <div className='styleguide--sidebar-title'>{capitalizeString(category)}</div>
         {children[category].map(page => renderLink(page))}
       </div>
     );
   });
 
   return (
-    <nav className='bf--sidebar'>
+    <nav className='styleguide--sidebar'>
       {parentLinks}
       {restLinks}
     </nav>

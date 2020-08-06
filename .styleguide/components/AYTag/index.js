@@ -6,11 +6,11 @@ const AYTag = ({ violations, onRefresh }) => {
   const renderTag = (status = '', message = '', description = '') => {
     return (
       <>
-        <div className='bf--ay-title'>
-          <div className={`bf--ay-tag bf--ay-tag_${status.toLowerCase()}`}>{status}</div>
-          <div className='bf--ay-message'>{message}</div>
+        <div className='styleguide--ay-title'>
+          <div className={`styleguide--ay-tag styleguide--ay-tag_${status.toLowerCase()}`}>{status}</div>
+          <div className='styleguide--ay-message'>{message}</div>
         </div>
-        {description && <div className='bf--ay-description'>{description}</div>}
+        {description && <div className='styleguide--ay-description'>{description}</div>}
         {
           <div className='bf-link' onClick={onRefresh}>
             Refresh results
@@ -21,10 +21,10 @@ const AYTag = ({ violations, onRefresh }) => {
   };
 
   if (!violations)
-    return <div className='bf--ay'>{renderTag('Loading', 'Checking accessability')}</div>;
+    return <div className='styleguide--ay'>{renderTag('Loading', 'Checking accessability')}</div>;
 
   if (violations && !violations.length)
-    return <div className='bf--ay'>{renderTag('Passed', 'All accessibility tests passed')}</div>;
+    return <div className='styleguide--ay'>{renderTag('Passed', 'All accessibility tests passed')}</div>;
 
   return violations.map(violation => {
     const violationHelp = (
@@ -34,14 +34,14 @@ const AYTag = ({ violations, onRefresh }) => {
     );
 
     return (
-      <div key={violation.id} className='bf--ay'>
+      <div key={violation.id} className='styleguide--ay'>
         {renderTag(violation.impact, violationHelp, violation.description)}
         <div>
           {violation.nodes.map(node => {
             return (
               <div key={node.html}>
-                <code className='bf--ay-code'>{node.html}</code>
-                <div className='bf--ay-summary'>{node.failureSummary}</div>
+                <code className='styleguide--ay-code'>{node.html}</code>
+                <div className='styleguide--ay-summary'>{node.failureSummary}</div>
               </div>
             );
           })}

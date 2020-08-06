@@ -1,22 +1,22 @@
-.bf--ay {
+.styleguide--ay {
   font-family: monospace;
   padding: var(--vf-spacing-lg);
   font-size: var(--vf-font-size-small);
   border: 1px solid var(--vf-color-lightgray);
 }
 
-.bf--ay-title {
+.styleguide--ay-title {
   display: flex;
   align-items: center;
   margin-bottom: var(--vf-spacing-lg);
 }
 
-.bf--ay-description {
+.styleguide--ay-description {
   margin: var(--vf-spacing-lg) 0;
   color: var(--vf-color-darkgray);
 }
 
-.bf--ay-tag {
+.styleguide--ay-tag {
   margin-right: var(--vf-spacing-lg);
   padding: var(--vf-spacing-xxs) var(--vf-spacing-xs);
   font-weight: 400;
@@ -24,26 +24,26 @@
   background-color: var(--vf-color-green);
 }
 
-.bf--ay-summary {
+.styleguide--ay-summary {
   padding-top: var(--vf-spacing-sm);
 }
 
-.bf--ay-code {
+.styleguide--ay-code {
   display: inline-block;
   margin-top: var(--vf-spacing-xl);
 }
 
-.bf--ay-tag_loading {
+.styleguide--ay-tag_loading {
   color: var(--vf-color-black);
   background-color: var(--vf-color-lightgray);
 }
 
-.bf--ay-tag_serious,
-.bf--ay-tag_critical {
+.styleguide--ay-tag_serious,
+.styleguide--ay-tag_critical {
   background-color: var(--vf-color-red);
 }
 
-.bf--ay-tag_moderate {
+.styleguide--ay-tag_moderate {
   color: var(--vf-color-black);
   background-color: var(--vf-color-yellow);
 }

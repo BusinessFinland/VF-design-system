@@ -5,9 +5,9 @@ import './styles.css';
 
 const Header = ({ version = '', description = '' }) => {
   return (
-    <header className='bf--header'>
-      <div className='bf--header-meta'>
-        <div className='bf--logo'>
+    <header className='styleguide--header'>
+      <div className='styleguide--header-meta'>
+        <div className='styleguide--logo'>
           <NavLink to='/'>
             <div className='vf-logo-container'>
               <div className='vf-logo'>
@@ -17,10 +17,10 @@ const Header = ({ version = '', description = '' }) => {
             </div>
           </NavLink>
         </div>
-        <div className='bf--meta-description'>{description}</div>
+        <div className='styleguide--meta-description'>{description}</div>
       </div>
-      <div className='bf--header-meta'>
-        <div className='bf--meta-version'>Version: {version}</div>
+      <div className='styleguide--header-meta'>
+        <div className='styleguide--meta-version'>Version: {version}</div>
       </div>
     </header>
   );

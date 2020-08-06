@@ -1,7 +1,7 @@
 # Buttons
 
 ```html
-<div class="bf-example-block">
+<div class="vf-example-block">
 
     <button class="vf-button vf-button-blue">Blue</button>
     <button class="vf-button vf-button-pink">Pink</button>

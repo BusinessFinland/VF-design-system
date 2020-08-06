@@ -45,15 +45,15 @@ const Page = ({ page }) => {
   const hasNoA11yCheck = isPageLoaded && !page.hasComponent;
 
   const classNames = cx({
-    'bf--page': true,
-    'bf--page_loaded': (isPageLoaded && violations) || hasNoA11yCheck
+    'styleguide--page': true,
+    'styleguide--page_loaded': (isPageLoaded && violations) || hasNoA11yCheck
   });
 
   return (
     <main className={classNames}>
-      <div className='bf--page-body'>
+      <div className='styleguide--page-body'>
         {!hasNoA11yCheck && <AYTag violations={violations} onRefresh={checkAccessibility} />}
-        <div className='bf--page-bodyHTML' dangerouslySetInnerHTML={{ __html: page.body }} />
+        <div className='styleguide--page-bodyHTML' dangerouslySetInnerHTML={{ __html: page.body }} />
       </div>
     </main>
   );

@@ -45,19 +45,19 @@ code {
 
 /* Helpers */
 
-.bf-example-block {
+.vf-example-block {
   display: inline-block;
   border: 1px solid var(--vf-color-lightgray);
   padding: var(--vf-spacing-lg) var(--vf-spacing-md);
 }
 
-.bf-example-block_blue {
+.vf-example-block_blue {
   color: var(--vf-color-white);
   background-color: var(--vf-color-brand-primary);
   padding: var(--vf-spacing-lg) var(--vf-spacing-sm);
 }
 
-.bf-example-block_300 {
+.vf-example-block_300 {
   width: 350px;
 }
 

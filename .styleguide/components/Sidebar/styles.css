@@ -1,4 +1,4 @@
-.bf--sidebar {
+.styleguide--sidebar {
   position: fixed;
   padding-top: 90px;
   height: 100%;
@@ -10,11 +10,11 @@
   z-index: 1;
 }
 
-.bf--sidebar-category {
+.styleguide--sidebar-category {
   margin: var(--vf-spacing-xxl) 0;
 }
 
-.bf--sidebar-link {
+.styleguide--sidebar-link {
   display: block;
   text-decoration: none;
   padding: var(--vf-spacing-lg) 0;
@@ -24,18 +24,18 @@
   transition: background-color var(--vf-transition);
 }
 
-.bf--sidebar-title {
+.styleguide--sidebar-title {
   font-weight: 600;
   color: var(--vf-color-white);
   margin-bottom: var(--vf-spacing-lg);
 }
 
-.bf--sidebar-title,
-.bf--sidebar-link {
+.styleguide--sidebar-title,
+.styleguide--sidebar-link {
   padding-left: var(--vf-spacing-xxl);
 }
 
-.bf--sidebar-link_active {
+.styleguide--sidebar-link_active {
   color: var(--vf-color-white);
   background-color: var(--vf-color-brand-primary-dark);
 }

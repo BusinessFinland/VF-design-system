@@ -1,4 +1,4 @@
-.bf--header {
+.styleguide--header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,30 +14,30 @@
   padding: 0 var(--vf-spacing-xxl);
 }
 
-.bf--logo {
+.styleguide--logo {
 /*  width: 80px; */
 }
 
-.bf--logo > a {
+.styleguide--logo > a {
   text-decoration: none;
 }
 
-.bf--img {
+.styleguide--img {
   width: 100%;
   height: auto;
 }
 
-.bf--header-meta {
+.styleguide--header-meta {
   display: flex;
   align-items: center;
 }
 
-.bf--meta-version {
+.styleguide--meta-version {
   padding: 0 var(--vf-spacing-xxl);
   color: var(--vf-color-darkgray);
 }
 
-.bf--meta-description {
+.styleguide--meta-description {
   color: var(--vf-color-brand-primary);
   padding: 0 var(--vf-spacing-xxl);
   font-size: var(--vf-header-5);
