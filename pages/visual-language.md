@@ -50,7 +50,7 @@ that store visual design attributes. Technically, design tokens are expressed as
 
   /* Transitions */
 
-  --vf-transition: all .2s ease-out;
+  --vf-transition: .2s ease-out;
 
   /* Border Radius */
 

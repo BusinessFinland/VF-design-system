@@ -530,7 +530,7 @@ h2.vf-paragraph-heading-center {
     font-family: inherit;
 
     text-transform: uppercase;
-    transition: var(--vf-transition);
+    transition: all var(--vf-transition);
     font-weight: 700;
     border: none;
     padding: 12px 30px!important;
@@ -567,7 +567,7 @@ h2.vf-paragraph-heading-center {
     font-family: inherit;
 
     text-transform: uppercase;
-    transition: var(--vf-transition);
+    transition: all var(--vf-transition);
     font-weight: 700;
     border: none;
     padding: 12px 30px!important;
@@ -692,7 +692,7 @@ h2.vf-paragraph-heading-center {
     position: absolute;
     left: 5px;
     right: 5px;
-    transition: var(--vf-transition);
+    transition: all var(--vf-transition);
 }
 
 .vf-dimmed::before {
@@ -717,7 +717,7 @@ h2.vf-paragraph-heading-center {
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
-    transition: var(--vf-transition);
+    transition: all var(--vf-transition);
 }
 
 .vf-cta-image-excerpt {
@@ -725,7 +725,7 @@ h2.vf-paragraph-heading-center {
     bottom: 0;
     transform: translateY(100%);
     background: rgba(0,0,0,.9);
-    transition: var(--vf-transition);
+    transition: all var(--vf-transition);
     padding: 1em;
     text-align: center;
     width: 100%;
@@ -767,4 +767,37 @@ h2.vf-paragraph-heading-center {
     .vf-cta-image-excerpt p {
         display: none;
     }
+}
+
+
+/** social media buttons **/
+
+.vf-share-buttons {
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 10px 0 7px;
+    background: #666;
+    text-align: center;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.vf-share-buttons a {
+    width: 40px;
+    height: 28px;
+    background: #666;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    line-height: 28px;
+    transition: color var(--vf-transition);
+    text-decoration: none;
+}
+
+.vf-share-buttons a:hover {
+    color: #31ccfd;
 }
