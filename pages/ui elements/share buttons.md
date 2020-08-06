@@ -1,5 +1,7 @@
 # Share buttons
 
+Note: the JavaScript required for the sharing functionality does not come with this style guide.
+
 ```html
 
 <div class="vf-example-block" style="height: 200px; width: 200px;">
