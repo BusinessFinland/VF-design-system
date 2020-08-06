@@ -12,7 +12,7 @@ const AYTag = ({ violations, onRefresh }) => {
         </div>
         {description && <div className='styleguide--ay-description'>{description}</div>}
         {
-          <div className='bf-link' onClick={onRefresh}>
+          <div className='styleguide--ay-link' onClick={onRefresh}>
             Refresh results
           </div>
         }

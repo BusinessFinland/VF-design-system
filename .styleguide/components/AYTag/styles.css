@@ -47,3 +47,13 @@
   color: var(--vf-color-black);
   background-color: var(--vf-color-yellow);
 }
+
+.styleguide--ay-link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--vf-color-brand-primary);
+}
+
+.styleguide--ay-link:hover {
+  text-decoration: none;
+}
