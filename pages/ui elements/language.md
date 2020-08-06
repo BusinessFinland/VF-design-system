@@ -2,7 +2,12 @@
 
 ```html
 <div class="vf-dropdown-element">
-    <a class="vf-dropdown-title-language">English</a>
+    <div class="vf-dropdown-title-language-container">
+        <a class="vf-dropdown-title-language">    
+            <span class="vf-header-iconmenuicon icon-globe"></span>
+            <span>English</span>
+        </a> 
+    </div>
     <div class="vf-dropdown-menu">
         <a class="vf-dropdown-item" href="#" lang="en-US">English</a>
         <a class="vf-dropdown-item" href="#" lang="fr-FR">Français</a>
@@ -16,4 +21,5 @@
         <a class="vf-dropdown-item" href="#" lang="sv-SE">Svenska</a>
     </div>
 </div>
+
 ```
