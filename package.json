@@ -1,8 +1,8 @@
 {
   "name": "vf-html-styleguide",
   "version": "0.1.0",
-  "repository": "https://github.com/BusinessFinland/BF-design-system",
-  "homepage": "https://businessfinland.github.io/BF-design-system",
+  "repository": "https://github.com/BusinessFinland/VF-design-system",
+  "homepage": "https://businessfinland.github.io/VF-design-system",
   "description": "HTML Styleguide",
   "scripts": {
     "start": "npm-run-all --parallel watch:nodemon watch:webpack",
