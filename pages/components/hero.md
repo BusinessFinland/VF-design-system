@@ -10,7 +10,6 @@
     </div>
     <div class="vf-hero-cover"></div>
     <picture class="vf-hero-image">
-        <source srcset="assets/images/hero.jpg">
         <img alt="" src="assets/images/hero.jpg">
     </picture>
 </div>
