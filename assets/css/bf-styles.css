@@ -4,65 +4,6 @@
 
 */
 
-/* Global */
-body {
-  color: var(--vf-color-black);
-  font-size: var(--vf-font-size-base);
-  line-height: var(--vf-line-height-base);
-  font-family: var(--vf-font-family-brand), var(--vf-font-family-fallback);
-}
-
-a {
-  color: var(--vf-color-brand-primary);
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: var(--vf-color-brand-primary);
-  line-height: var(--vf-line-height-header);
-  margin: var(--vf-spacing-xxl) 0 var(--vf-spacing-xl);
-}
-
-h1 {
-  font-size: var(--vf-header-1);
-  margin-bottom: var(--vf-spacing-xxl);
-}
-
-h2 {
-  font-size: var(--vf-header-2);
-}
-
-h3 {
-  font-size: var(--vf-header-3);
-}
-
-h4 {
-  font-size: var(--vf-header-4);
-}
-
-h5 {
-  font-size: var(--vf-header-5);
-}
-
-@media only screen and (max-width: 992px) {
-  html,
-  body {
-    font-size: var(--vf-font-size-small);
-  }
-}
-
 /* Buttons */
 /* Regular Button */
 .bf-btn,
