@@ -99,3 +99,13 @@ It will start two development servers. One is watching for changes in `/.stylegu
 ### Deployment
 
 To deploy a new version of the styleguide run `npm run deploy`. Updated styles would be also available automatically.
+
+### Known issues
+
+#### Avenir font is missing
+- Avenir font does not work on some platforms, at least Windows
+- This includes the logo
+
+#### Brand colors are too light for text
+- This style guide uses the Visit Finland brand pink, but it is too light as a text background and gives lots of accessibility warnings
+- The VF logo’s blue is also too light for text on a white background to meet accessibility standards
