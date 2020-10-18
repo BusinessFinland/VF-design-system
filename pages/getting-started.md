@@ -98,7 +98,9 @@ It will start two development servers. One is watching for changes in `/.stylegu
 
 ### Deployment
 
-To deploy a new version of the styleguide run `npm run deploy`. Updated styles would be also available automatically.
+To deploy a new version of the styleguide run `npm run deploy`. This creates a compiled version of the style guide and pushes is to `gh-pages` branch. This branch includes both the style guide website and the installable package, so updated styles will be available for developers automatically.
+
+Please note that if you want to change the domain name where this page is hosted in GitHub pages, you should change the domain from the CNAME file in this repository, not from GitHub Settings. Otherwise the domain will be changed back when changes to this style guide are published.
 
 ### Known issues
 
