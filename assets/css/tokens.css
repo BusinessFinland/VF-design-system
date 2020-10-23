@@ -49,7 +49,7 @@
 
   /* Transitions */
 
-  --vf-transition: all .1s ease-out;
+  --vf-transition: .2s ease-out;
 
   /* Border Radius */
 
